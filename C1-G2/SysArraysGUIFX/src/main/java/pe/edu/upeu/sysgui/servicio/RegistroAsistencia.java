@@ -10,13 +10,11 @@ import java.util.List;
 public class RegistroAsistencia {
     List<Persona> p= new ArrayList<>();
     ArrayList<Persona> pp= new ArrayList<>();
-
     public void registrarAsistencia(Persona px){
         System.out.println("Registrar Asistencia a Curso POO");
         p.add(px);
         pp.add(px);
     }
-
     public List<Persona> mostrarAsistenciaList(){
         System.out.println("Alamcenado en un LIST:");
         return p;

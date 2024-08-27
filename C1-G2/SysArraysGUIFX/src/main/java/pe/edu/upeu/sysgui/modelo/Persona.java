@@ -19,21 +19,16 @@ public class Persona {
         this.genero=genero;
     }
     public String getNombre() {
-        return nombre;
-    }
-
+        return nombre;}
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
     public String getEstadoAsis() {
         return estadoAsis;
     }
-
     public void setEstadoAsis(String estadoAsis) {
         this.estadoAsis = estadoAsis;
     }
-
     @Override
     public String toString() {
         return this.nombre +"\t"+ this.estadoAsis +"\t"+ this.fechaReg;
